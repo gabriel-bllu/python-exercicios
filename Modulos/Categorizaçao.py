@@ -1,0 +1,10 @@
+inf = input('Digite algo: ')
+
+print('O tipo é', type(inf))
+print('O que você digitou indica |{}| para numérico.'.format(inf.isnumeric()))
+print('O que você digitou indica {} para alfabético.'.format(inf.isalpha()))
+print('O que você digitou é alfanumérico? ', inf.isalnum())
+print('O que você digitou está todo em maiúsculo? ', inf.isupper())
+print('O que você digitou está todo minúsculo? ', inf.islower())
+print('O que você digitou só tem espaços? ', inf.isspace())
+print('O que você digitou está capitalizado? ', inf.istitle())
