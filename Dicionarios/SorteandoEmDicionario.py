@@ -16,6 +16,6 @@ for k, v in sorteio.items():
     sleep(1.2)
 ranking = dict()
 ranking = sorted(sorteio.items(), key=itemgetter(1), reverse=True)
-print("\n  == Ranking dos jogadores =")
+print("\n  == Ranking dos jogadores ==")
 for i, v in enumerate(ranking):
     print(f"    {i + 1}º lugar: {v[0]} com {v[1]}")
